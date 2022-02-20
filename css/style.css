@@ -1,0 +1,49 @@
+a{
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+body{
+  color: white;
+  background-color: black;
+  font-family: 'Shippori Mincho', serif;
+}
+
+.header{
+  background-color: black;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.header__nav-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav-item{
+  padding-left: 20px;
+}
+
+.hamburger{
+  display: none;
+}
+@media screen and (max-width: 768px){
+  .header__nav-list{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+
+  }
+}
+
+.firstview{
+  background-color: black;
+  width: 1000px;
+
+}
